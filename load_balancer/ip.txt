@@ -1,0 +1,7 @@
+[webservers]
+<ip1> ansible_user=root ansible_ssh_password=<password> ansible_connection=ssh
+<ip2> ansible_user=root ansible_ssh_password=<password> ansible_connection=ssh
+
+
+[load_balancer]
+<ip3> ansible_user=root ansible_ssh_password=<password> ansible_connection=ssh
