@@ -1,0 +1,8 @@
+- hosts: load_balancer
+  roles:
+          -  role: "load_balancer"
+
+- hosts: webservers 
+  roles:
+          -  role: "web_server"
+
